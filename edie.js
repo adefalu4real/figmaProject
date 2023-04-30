@@ -9,6 +9,7 @@ function myFunction() {
 
 const input = document.querySelector(".email");
 const button = document.querySelector(".buttonWork");
+const buttonDn = document.querySelector("#buttonWork");
 const startBtn = document.querySelector(".getStarted");
 const startBtn2 = document.querySelector(".getStarted2");
 const startBtn3 = document.querySelector("#getStarted3");
@@ -23,13 +24,20 @@ function handleClick(params) {
   alert("You are welcome");
   input.style.backgroundColor = "green";
 }
+buttonDn.addEventListener("click", handleClickDn);
+function handleClickDn(params) {
+  buttonDn.style.backgroundColor = "green";
+  buttonDn.textContent = "success";
+  alert("You are welcome");
+  //   input.style.backgroundColor = "green";
+}
 
 input.addEventListener("keydown", checkInput);
 function checkInput() {
   button.style.backgroundColor = "green";
   button.textContent = "success";
   // alert("You are welcome");
-  input.style.backgroundColor = "green";
+  //   input.style.backgroundColor = "green";
 }
 
 startBtn.addEventListener("mouseover", handleBtn);
