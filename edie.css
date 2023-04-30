@@ -1,7 +1,7 @@
 .container {
   margin-top: 10px;
-  /* margin-left: 53px; */
-  /* margin-right: 53px; */
+  margin-left: 53px;
+  margin-right: 53px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 *:focus {
@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 
-.topNav {
+.topNav a {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -30,7 +30,7 @@
 }
 
 .topNav a {
-  display: block;
+  display: inline;
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 16px;
@@ -48,8 +48,8 @@
   width: 543px;
   height: 144px;
   font-size: 48px;
-  margin-bottom: -20px;
-  /* margin-top: -10px; */
+  margin-bottom: 10px;
+  margin-top: -5px;
   font: poppins;
   font-weight: 500;
   line-height: 65px;
@@ -401,10 +401,13 @@ input:hover {
 
   color: #828282;
 }
-.lastPage {
+.footer {
   background-color: #100e1d;
   width: 100%;
-  height: 385px;
+  height: 500px;
+  /* text-align: center; */
+}
+.lastPage {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -420,7 +423,7 @@ input:hover {
 }
 .lastPage_1 a {
   color: white;
-  line-height: 15px;
+  line-height: 20px;
   text-decoration: none;
   text-align: justify;
 }
@@ -428,6 +431,7 @@ input:hover {
 .lastPage_3 {
   margin-right: 10px;
   padding-right: 50px;
+  color: #828282;
 }
 .iconsHandle {
   display: flex;
@@ -438,8 +442,21 @@ input:hover {
 #iconsHandle1 {
   margin-left: 5px;
 }
-#lastParagragh {
+/* #lastParagragh {
   text-align: center;
+} */
+.lastP {
+  width: 287px;
+  height: 17px;
+  background-color: #100e1d;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 180px;
+  color: #f2f2f2;
 }
 
 @media screen and (max-width: 768px) {
@@ -447,11 +464,12 @@ input:hover {
     display: none;
   }
   .container {
-    margin: 0;
+    margin: 2px;
   }
   .topNav a.icon {
     float: right;
     display: block;
+    margin-top: 15px;
   }
   .topNav.responsive {
     position: relative;
@@ -559,17 +577,17 @@ input:hover {
     margin-left: -134px;
   }
   .imgPart1_a img {
-    width: 300px;
-    height: 300px;
-    margin-left: -120px;
+    width: 400px;
+    height: 400px;
+    margin-left: -155px;
     /* top: 89.52px; */
     border-radius: 8px;
     margin-top: 5px;
   }
   .imgPart1_b img {
-    width: 300px;
-    height: 300px;
-    margin-left: -120px;
+    width: 400px;
+    height: 400px;
+    margin-left: -155px;
     /* top: 89.52px; */
     border-radius: 8px;
     margin-top: 5px;
@@ -589,7 +607,7 @@ input:hover {
   .smartHome2 {
     width: 341.17px;
     height: 30.22px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -619,7 +637,7 @@ input:hover {
   #more a {
     justify-content: start;
     margin-top: -10px;
-    margin-left: -134px;
+    margin-left: -140px;
   }
   input {
     position: absolute;
@@ -633,7 +651,7 @@ input:hover {
     position: absolute;
     width: 71px;
     height: 58px;
-    margin-left: 205px;
+    margin-left: 210px;
     /* top: 589px; */
     background: #2d9cdb;
     border-radius: 12px;
@@ -641,10 +659,11 @@ input:hover {
   }
   .theTeam {
     flex-direction: column;
-    margin-top: -50px;
+    margin-top: -100px;
+    margin-left: 10px;
   }
   .theTeam_a {
-    margin-left: 5px;
+    margin-left: 10px;
   }
   .theTeam_a2 {
     position: absolute;
@@ -669,7 +688,7 @@ input:hover {
     line-height: 24px;
   }
   .theTeam_b {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 5px;
     margin-bottom: 50px;
   }
@@ -697,7 +716,7 @@ input:hover {
   .fast {
     width: 351px;
     height: 180px;
-    margin-left: 5px;
+    margin-left: 15px;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -706,22 +725,16 @@ input:hover {
     color: #333333;
   }
   .owner {
-    margin-left: -160px;
+    margin-left: -155px;
     margin-top: 10px;
     margin-bottom: -10px;
   }
-  .carlos {
-    margin-top: -10px;
+  #carlos2 {
+    margin-top: 20px;
   }
   .lastPage {
     flex-direction: column;
     /* margin-left: 5px; */
-    padding-left: 10px;
-  }
-  #lastParagraph {
-    padding-top: 30px;
-  }
-  .firstImg {
-    width: 300px;
+    padding-left: 40px;
   }
 }

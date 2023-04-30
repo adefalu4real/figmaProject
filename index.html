@@ -20,7 +20,8 @@
         <div class="top">
           <div class="logo"><h1>Edie</h1></div>
           <div class="topNav" id="myTopNav">
-            <a class="active" href="#home">Home</a>
+            <a href=""></a>
+            <a href="#home">Home</a>
             <a href="#news">Service</a>
             <a href="#news">Our Work</a>
             <a href="#contact">Client</a>
@@ -57,9 +58,19 @@
         </div>
       </div>
       <div class="ourWork">
-        <p style="margin-top: 50px">Want us to contact you?</p>
-        <input type="email" placeholder="Email" />
-        <button type="submit" class="buttonWork">join</button>
+        <p style="margin-top: 50px; color: #828282; margin-bottom: 1px">
+          Want us to contact you?
+        </p>
+        <input
+          type="email"
+          class="email"
+          placeholder="adefalu4real@gmail.com"
+          value=""
+          name="email"
+          minlength="20"
+          maxlength="50"
+        />
+        <button type="submit" class="buttonWork">Join</button>
       </div>
       <div class="weOffer"><p>We offer high demand services</p></div>
       <div class="card">
@@ -90,7 +101,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
             metus ac nulla consequat aliquet id quis turpis.
           </p>
-          <button type="submit" class="getStarted">Get started</button>
+          <button type="submit" class="getStarted" id="getStarted3">
+            Get started
+          </button>
         </div>
       </div>
       <div class="goodDesign">
@@ -158,28 +171,42 @@
         </div>
       </div>
     </div>
-    <div class="lastPage">
-      <div class="lastPage_1">
-        <a href="#home">Home</a>
-        <a href="#news">Service</a>
-        <a href="#news">Our Work</a>
-        <a href="#contact">Client</a>
-        <a href="#about">Contact</a>
-      </div>
-      <div class="lastPage_2">
-        <h2>Edie</h2>
-        <div class="iconsHandle">
-          <p id="iconsHandle1"><i class="fa-brands fa-square-instagram"></i></p>
-          <p id="iconsHandle1"><i class="fa-brands fa-linkedin"></i></p>
-          <p id="iconsHandle1"><i class="fa-brands fa-twitter"></i></p>
+    <div class="footer">
+      <div class="lastPage">
+        <div class="lastPage_1">
+          <a href="#home">Home</a>
+          <a href="#news">Service</a>
+          <a href="#news">Our Work</a>
+          <a href="#contact">Client</a>
+          <a href="#about">Contact</a>
+        </div>
+        <div class="lastPage_2">
+          <h2>Edie</h2>
+          <div class="iconsHandle">
+            <p id="iconsHandle1">
+              <i class="fa-brands fa-square-instagram"></i>
+            </p>
+            <p id="iconsHandle1"><i class="fa-brands fa-linkedin"></i></p>
+            <p id="iconsHandle1"><i class="fa-brands fa-twitter"></i></p>
+          </div>
+        </div>
+        <div class="lastPage_3">
+          <p style="margin-bottom: 1px">Want us to contact you?</p>
+          <input
+            type="email"
+            id="email"
+            placeholder="adefalu4real@gmail.com"
+            value=""
+            name="email"
+            minlength="20"
+            maxlength="50"
+          />
+          <button type="submit" class="buttonWork">Join</button>
         </div>
       </div>
-      <div class="lastPage_3">
-        <p>Want us to contact you?</p>
-        <input type="email" placeholder="Email" />
-        <button type="submit" class="buttonWork">join</button>
+      <div class="lastP">
+        <p id="lastParagraph">created by username - devChallenges.io</p>
       </div>
-      <p id="lastParagraph">created by username - devChallenges.io</p>
     </div>
     <script src="edie.js"></script>
   </body>
