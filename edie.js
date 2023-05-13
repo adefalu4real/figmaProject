@@ -18,7 +18,7 @@ const box2 = document.querySelector(".smallBox2");
 const box3 = document.querySelector(".smallBox_3");
 
 button.addEventListener("click", handleClick);
-function handleClick(params) {
+function handleClick() {
   button.style.backgroundColor = "green";
   button.textContent = "success";
   alert("You are welcome");
